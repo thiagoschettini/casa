@@ -2727,6 +2727,7 @@ html, body {
 #menu ul li {
 	list-style: none;
 	font-family: 'MuseoSlab-500', serif;
+	font-size: 18px;
 	margin: auto;
 	text-align: center;
 

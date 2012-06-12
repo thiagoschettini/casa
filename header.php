@@ -52,7 +52,24 @@
 	<script src="wp-content/themes/casa/js/jquery.min.js"></script>
 	<script src="wp-content/themes/casa/js/jquery.backstretch.min.js"></script>
 	<script>
+	<?php if(is_page('home')){ ?>
 	    $.backstretch("wp-content/themes/casa/images/bailarinas.jpg");
+	<?php } ?>
+	<?php if(is_page('quem-somos')){ ?>
+	    $.backstretch("wp-content/themes/casa/images/bg-quem-somos.jpg");
+	<?php } ?>
+	<?php if(is_page('dancas-e-cursos')){ ?>
+	    $.backstretch("wp-content/themes/casa/images/bg-dancas-e-cursos.jpg");
+	<?php } ?>
+	<?php if(is_page('parceiros')){ ?>
+	    $.backstretch("wp-content/themes/casa/images/bg-parceiros.jpg");
+	<?php } ?>
+	<?php if(is_page('contato-2')){ ?>
+	    $.backstretch("wp-content/themes/casa/images/bg-contato.jpg");
+	<?php } ?>
+	<?php if(is_page('noticias')){ ?>
+	    $.backstretch("wp-content/themes/casa/images/bg-noticias.jpg");
+	<?php } ?>
     </script>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
