@@ -47,7 +47,6 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 	<script src="wp-content/themes/casa/js/jquery.min.js"></script>

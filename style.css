@@ -12,6 +12,7 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
+@font-face {font-family: 'MuseoSlab-500';src: url('./webfonts/233986_0_0.eot');src: url('./webfonts/233986_0_0.eot?#iefix') format('embedded-opentype'),url('./webfonts/233986_0_0.woff') format('woff'),url('./webfonts/233986_0_0.ttf') format('truetype');}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -2238,7 +2239,7 @@ p.comment-form-comment {
 	clear: both;
 	/*position: absolute;*/
 	bottom: 0;
-	font-family: 'Arvo', serif;
+	font-family: 'MuseoSlab-500', serif;
 	font-size: 16px;
 }
 #site-generator a {
@@ -2725,7 +2726,7 @@ html, body {
 
 #menu ul li {
 	list-style: none;
-	font-family: 'Arvo', serif;
+	font-family: 'MuseoSlab-500', serif;
 	margin: auto;
 	text-align: center;
 
