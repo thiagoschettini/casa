@@ -2710,9 +2710,6 @@ html, body {
 	height: 90%;
 	background-color: #ce9783;
 	background-color: rgba(206,151,131,0.8);
-	background-image: url('./images/bg-menu.png');
-	background-repeat: repeat-y;
-	background-position: center;
 	display: block;
 	float: left;
 }
