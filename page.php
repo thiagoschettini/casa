@@ -16,9 +16,7 @@ get_header(); ?>
 
 		<div id="primary">
 			<div id="content" role="main">
-			<?php if (is_home()) { ?>
-			    <h1>Centro Arte Savassi</h1>
-			<?php } else { ?>
+
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'content', 'page' ); ?>
@@ -26,8 +24,6 @@ get_header(); ?>
 					<?php comments_template( '', true ); ?>
 
 				<?php endwhile; // end of the loop. ?>
-			<?php } ?>
-
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
