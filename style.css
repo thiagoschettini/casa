@@ -2764,4 +2764,10 @@ html, body {
 	float: right;
 	clear: both;
 	min-height: 92%;
+	width: 100%;
+}
+
+#logo {
+	width: 400px;
+	margin: 100px auto;
 }

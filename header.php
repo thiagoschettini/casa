@@ -79,5 +79,11 @@
 <nav id="menu" role="navigation">
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 </nav><!-- #access -->
+<?php if(!is_page('home')){ ?>
 <div id="page-casa">
 	<div id="main-casa">
+<?php }else{ ?>
+	<div id="logo">
+		<img src="wp-content/themes/casa/images/logomarca.png">
+	</div>
+<?php } ?> 

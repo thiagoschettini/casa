@@ -9,9 +9,10 @@
  * @since Twenty Eleven 1.0
  */
 ?>
-
+<?php if(!is_page('home')){ ?>
 	</div><!-- #main -->
 </div><!-- #page -->
+<?php } ?>
 </div>
 <div id="site-generator">
 	<?php do_action( 'twentyeleven_credits' ); ?>
