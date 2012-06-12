@@ -2767,6 +2767,11 @@ html, body {
 	width: 100%;
 }
 
+#content-casa {
+	margin: 0 34% 0 7.6%;
+	width: 85%;
+}
+
 #logo {
 	width: 400px;
 	margin: 100px auto;

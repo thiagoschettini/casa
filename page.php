@@ -15,7 +15,7 @@
 get_header(); ?>
 
 		<div id="primary">
-			<div id="content" role="main">
+			<div id="content-casa" role="main">
 				<?php if(!is_page('home')){ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
 
